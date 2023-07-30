@@ -20,10 +20,7 @@ class ViewController: UIViewController {
         self.presentSearchAlertController(withTitle: "Enter city name", message: nil, style: .alert)
     }
     
-    
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }

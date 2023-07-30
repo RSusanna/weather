@@ -50,7 +50,7 @@
 		D179E1842A76C0DF0014FACC = {
 			isa = PBXGroup;
 			children = (
-				D179E18F2A76C0DF0014FACC /* training apppp */,
+				D179E18F2A76C0DF0014FACC /* weather */,
 				D179E18E2A76C0DF0014FACC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +63,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D179E18F2A76C0DF0014FACC /* training apppp */ = {
+		D179E18F2A76C0DF0014FACC /* weather */ = {
 			isa = PBXGroup;
 			children = (
 				D179E1CC2A76EA140014FACC /* Supporting files */,
@@ -72,7 +72,7 @@
 				D179E1CB2A76E9F60014FACC /* Models */,
 				D1831D082A76EB3E00D5EF47 /* ViewControllers */,
 			);
-			path = "training apppp";
+			path = weather;
 			sourceTree = "<group>";
 		};
 		D179E1C62A76E9BA0014FACC /* Views */ = {
@@ -349,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64R8G8Z837;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "training apppp/Info.plist";
+				INFOPLIST_FILE = "weather/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -380,7 +380,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64R8G8Z837;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "training apppp/Info.plist";
+				INFOPLIST_FILE = "weather/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

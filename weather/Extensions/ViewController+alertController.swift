@@ -14,6 +14,7 @@ extension ViewController {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: style)
         alertController.addTextField {
             tf in
+            //на фоне текстхолдера рандомно будут эти города прописаны
             let cities = ["San Francisco", "Moscow", "New York", "Stambul", "Viena"]
             tf.placeholder = cities.randomElement()
         }
