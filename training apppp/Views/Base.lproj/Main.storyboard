@@ -38,6 +38,9 @@
                                             <color key="baseForegroundColor" name="AccentColor"/>
                                             <color key="baseBackgroundColor" red="0.27629679439999999" green="0.35313904289999998" blue="0.1232630089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kPt-bL-oJA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>

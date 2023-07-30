@@ -13,11 +13,12 @@ class ViewController: UIViewController {
     //MARK: - Аутлеты
     @IBOutlet weak var weatherIconImageView: UIImageView!
     @IBOutlet weak var cityLabel: UILabel!
-    
     @IBOutlet weak var temperatureLabel: UILabel!
-    
     @IBOutlet weak var feelsLikeTemperatureLabel: UILabel!
     
+    @IBAction func searchPressed(_ sender: Any) {
+        self.presentSearchAlertController(withTitle: "Enter city name", message: nil, style: .alert)
+    }
     
     
     
