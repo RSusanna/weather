@@ -16,7 +16,7 @@ func presentSearchAlertController(withTitle title: String?, message: String?, st
         let cities = ["San Francisco", "Moscow", "New York", "Stambul", "Viena"]
         tf.placeholder = cities.randomElement()
     }
-    
+    //Создание кнопки search
     let search = UIAlertAction(title: "Search", style: .default) {
         action in
         let textField = alertController.textFields?.first
@@ -27,6 +27,7 @@ func presentSearchAlertController(withTitle title: String?, message: String?, st
             print("search info for the \(cityName)")
         }
     }
+    //Если пользователь передумал искать
     let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
 
     alertController.addAction(search)
@@ -34,3 +35,5 @@ func presentSearchAlertController(withTitle title: String?, message: String?, st
     
 }
 
+
+//
