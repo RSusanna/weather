@@ -58,7 +58,7 @@
                                             <constraint firstAttribute="height" constant="240" id="aPi-8Q-qaf"/>
                                         </constraints>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="95" translatesAutoresizingMaskIntoConstraints="NO" id="NLr-Ua-Ic6">
+                                    <stackView opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" spacing="95" translatesAutoresizingMaskIntoConstraints="NO" id="NLr-Ua-Ic6">
                                         <rect key="frame" x="0.0" y="252" width="276" height="120"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgb-0x-plj">
