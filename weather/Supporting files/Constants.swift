@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  training apppp
+//  weather
 //
 //  Created by Susanna R on 30.07.2023.
 //

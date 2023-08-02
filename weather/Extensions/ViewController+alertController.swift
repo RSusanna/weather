@@ -1,6 +1,6 @@
 //
 //  ViewController+alertController.swift
-//  training apppp
+//  weather
 //
 //  Created by Susanna R on 30.07.2023.
 //
@@ -9,7 +9,7 @@ import UIKit
 
 extension ViewController {
 //Логика для алерт контроллера
-    func presentSearchAlertController(withTitle title: String?, message: String?, style: UIAlertController.Style) {
+    func presentSearchAlertController(withTitle title: String?, message: String?, style: UIAlertController.Style, completionHandler: @escaping(String) -> Void) {
         
         let alertController = UIAlertController(title: title, message: message, preferredStyle: style)
         alertController.addTextField {
@@ -26,7 +26,10 @@ extension ViewController {
                 return
             }
             if cityName != "" {
-                print("search info for the \(cityName)")
+//                self.networkWeatherManager.fetchCurrentWeather(forCity: cityName)
+                //загуглить что за %20
+                let city = cityName.split(separator: "").joined(separator: "%20")
+                completionHandler(city)
             }
         }
         //Если пользователь передумал искать
